@@ -1,0 +1,19 @@
+//cria os arquivos de docker 
+
+//instala o docker-machine usando o GIT BASH
+
+//executa o container
+docker-compose up
+
+//criar uma maquina na aws
+docker-machine create --driver amazonec2 aws01
+
+//rodar o comando docker machine
+docker-machine env aws01
+
+//executar o comando abaixo para rodar o docker na maquina virtual
+& "C:\Program Files\Docker Toolbox\docker-machine.exe" env aws01 | Invoke-Expression
+
+
+//storage
+/dev/sda1
