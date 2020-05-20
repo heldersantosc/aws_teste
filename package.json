@@ -11,6 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "check-node-version": "^2.1.0",
+    "cluster": "^0.7.7",
+    "os": "^0.1.1"
   }
 }
